@@ -190,6 +190,7 @@ footer {
 .container-main-side {
   display: block;
   height: 600px;
+  background-image: url(/images/);
 }
 .main-side {
   background-color: var(--background-sides-element-color);
