@@ -12,6 +12,7 @@
   --background-color-crew: rgba(245, 244, 250, 1);
   --background-color-crew-card: rgba(255, 255, 255, 1);
   --background-color-brand-card: rgba(255, 255, 255, 1);
+  --background-color-icons: rgba(245, 244, 250, 1);
   --border-color-brand-card: rgba(238, 238, 238, 1);
   --box-shadow-crew: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -245,6 +246,22 @@ h1 span {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
+.task-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+.task-icon-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color-icons);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 270px;
+  margin-top: 94px;
+}
 .home-list-container {
   margin-top: 94px;
 }
@@ -331,6 +348,35 @@ ul.home-list {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+.clients-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.client-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+.client-icon-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
+.client-icon-card svg {
+  fill: rgba(175, 177, 184, 1);
+}
+
 /* PORTFOLIO */
 .filter-container {
   display: flex;
