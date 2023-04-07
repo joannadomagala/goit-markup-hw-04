@@ -122,6 +122,11 @@ a:visited {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+.kontakt-up svg {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
 .kontakt-up li:first-child {
   margin-right: 50px;
 }
