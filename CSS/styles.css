@@ -15,6 +15,8 @@
   --border-color-brand-card: rgba(238, 238, 238, 1);
   --box-shadow-crew: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  --box-shadow-brand-card: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 *,
 *::before,
@@ -369,6 +371,12 @@ button.button-main-side:focus {
 .brand-card {
   background-color: var(--background-color-brand-card);
   border: 1px solid var(--border-color-brand-card);
+}
+.brand-card:hover,
+.brand-card:focus {
+  background: var(--background-color-brand-card);
+  box-shadow: var(--box-shadow-brand-card);
+  border-radius: 0px 0px 4px 4px;
 }
 .brand-card img {
   width: 100%;
