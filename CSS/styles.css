@@ -356,13 +356,13 @@ ul.home-list {
   line-height: 1.625;
   letter-spacing: 0.03em;
 }
-button.button-filter:hover,
-button.button-main-side:hover {
+button.button-main-side:hover,
+button.button-main-side:focus {
   background-color: var(--hover-focus-color);
   color: var(--font-color-special);
 }
-button.button-filter:focus,
-button.button-main-side:focus {
+button.button-filter:hover,
+button.button-filter:focus {
   background-color: var(--hover-focus-color);
   color: var(--font-color-special);
 }
