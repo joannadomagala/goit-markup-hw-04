@@ -189,15 +189,20 @@ footer {
 
 .container-main-side {
   display: block;
-  /* height: 600px; */
+  height: 600px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .main-side {
   background-color: var(--background-sides-element-color);
   font-family: inherit;
   text-align: center;
   align-items: center;
+  height: 600px;
+  margin: 0 auto;
   background-image: linear-gradient(
       to bottom,
+      rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.8)
     ),
@@ -206,8 +211,6 @@ footer {
   background-position: 50% 50%;
   background-size: cover;
   max-width: 1600px;
-  height: 600px;
-  margin: 0 auto;
 }
 h1 {
   font-size: 44px;
