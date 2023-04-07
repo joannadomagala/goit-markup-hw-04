@@ -17,6 +17,8 @@
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   --box-shadow-brand-card: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  --box-shadow-button-filter: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 *,
 *::before,
@@ -363,6 +365,12 @@ button.button-filter:focus,
 button.button-main-side:focus {
   background-color: var(--hover-focus-color);
   color: var(--font-color-special);
+}
+button.button-filter:hover,
+button.button-filter:focus {
+  background: var(--hover-focus-color);
+  box-shadow: var(--box-shadow-button-filter);
+  border-radius: 4px;
 }
 .brand-container {
   margin-top: 50px;
