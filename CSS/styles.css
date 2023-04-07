@@ -1,5 +1,6 @@
 :root {
   --icon-client-color: rgba(175, 177, 184, 1);
+  --icon-kontakt-color: rgba(117, 117, 117, 1);
   --logo-web-color: rgba(33, 150, 243, 1);
   --button-color: rgba(245, 244, 250, 1);
   --button-color-main-side: rgba(33, 150, 243, 1);
@@ -125,6 +126,7 @@ a:visited {
   letter-spacing: 0.03em;
 }
 .kontakt-up svg {
+  fill: var(--icon-kontakt-color);
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
@@ -140,14 +142,25 @@ a:visited {
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
-a:hover {
+.kontakt-up .email-header-icon:hover a,
+.kontakt-up .phone-header-icon:hover a {
   color: var(--hover-focus-color);
 }
+.kontakt-up .email-header-icon:hover svg use,
+.kontakt-up .phone-header-icon:hover svg use {
+  fill: var(--hover-focus-color);
+}
+a:hover,
 a:focus {
   color: var(--hover-focus-color);
 }
 .active a {
   color: var(--font-color-active);
+}
+.icon-header {
+  fill: var(--font-color-describe);
+  vertical-align: middle;
+  margin-right: 10px;
 }
 /* FOOTER */
 .logo-adress {
