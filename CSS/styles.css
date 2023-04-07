@@ -1,6 +1,5 @@
 :root {
   --icon-client-color: rgba(175, 177, 184, 1);
-  --icons-social-media-footer: rgba(245, 244, 250, 1);
   --logo-web-color: rgba(33, 150, 243, 1);
   --button-color: rgba(245, 244, 250, 1);
   --button-color-main-side: rgba(33, 150, 243, 1);
@@ -197,47 +196,6 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.social-m-tittle-footer {
-  font-family: inherit;
-  font-size: 14px;
-  font-weight: 700;
-  margin-left: 70px;
-  margin-bottom: 20px;
-}
-
-.icons-footer svg {
-  fill: var(--icons-social-media-footer);
-}
-
-.icons-footer-tweeter svg {
-  fill: var(--hover-focus-color);
-}
-
-.icons-footer-tweeter svg:hover {
-  fill: var(--icons-social-media-footer);
-}
-.icon-circle:hover {
-  background-color: var(--hover-focus-color);
-}
-.icon-circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.icons-footer-container {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 70px;
-  padding: 0;
-}
-
 /* INDEX */
 
 .container-main-side {
@@ -407,6 +365,7 @@ ul.home-list {
   justify-content: center;
   list-style: none;
   gap: 30px;
+  margin-bottom: 94px;
 }
 .client-icon-card {
   display: flex;
@@ -416,7 +375,6 @@ ul.home-list {
   border-radius: 4px;
   width: 170px;
   height: 92px;
-  margin-bottom: 94px;
 }
 .client-icon-card svg {
   fill: rgba(175, 177, 184, 1);
