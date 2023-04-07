@@ -207,7 +207,7 @@ footer {
     ),
     url(/images/img-overlay.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
   background-size: cover;
   max-width: 1600px;
 }
@@ -216,7 +216,7 @@ h1 {
   font-family: inherit;
   color: var(--font-color-special);
   font-weight: 900;
-  padding-top: 100px;
+  padding-top: 105px;
   line-height: 1.36;
   letter-spacing: 0.06em;
 }
