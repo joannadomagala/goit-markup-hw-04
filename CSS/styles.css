@@ -150,7 +150,9 @@ a:focus {
   color: var(--font-color-active);
 }
 /* FOOTER */
-
+.logo-adress {
+  display: flex;
+}
 .address > ul {
   font-family: inherit;
   font-weight: inherit;
@@ -177,7 +179,7 @@ footer {
   font-size: 14px;
   list-style: none;
   color: var(--font-color-footer);
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -187,7 +189,6 @@ footer {
 .kontakt-down li:first-child a {
   margin-bottom: 9px;
 }
-
 .kontakt-footer a {
   font-size: 14px;
   color: var(--font-color-footer);
@@ -196,6 +197,7 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
 /* INDEX */
 
 .container-main-side {
@@ -345,9 +347,41 @@ ul.home-list {
   color: var(--font-color-describe);
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+}
+.social-crew {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.icon-crew svg {
+  fill: var(--icon-client-color);
+}
+.icon-crew:hover svg {
+  fill: var(--font-color-special);
+}
+.icon-crew:hover {
+  background-color: var(--hover-focus-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.icon-circle-crew {
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 .clients-title {
   font-size: 36px;
@@ -364,7 +398,7 @@ ul.home-list {
   display: flex;
   justify-content: center;
   list-style: none;
-  gap: 30px;
+  gap: 10px;
   margin-bottom: 94px;
 }
 .client-icon-card {
