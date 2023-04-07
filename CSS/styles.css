@@ -204,15 +204,20 @@ footer {
   margin-left: 70px;
   margin-bottom: 20px;
 }
-.contact-media {
-  display: flex;
-  align-items: center;
-}
+
 .icons-footer svg {
   fill: var(--icons-social-media-footer);
 }
+
 .icons-footer-tweeter svg {
   fill: var(--hover-focus-color);
+}
+
+.icons-footer-tweeter svg:hover {
+  fill: var(--icons-social-media-footer);
+}
+.icon-circle:hover {
+  background-color: var(--hover-focus-color);
 }
 .icon-circle {
   display: flex;
@@ -223,6 +228,7 @@ footer {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .icons-footer-container {
   list-style: none;
   display: flex;
