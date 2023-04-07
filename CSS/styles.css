@@ -392,13 +392,12 @@ ul.home-list {
   margin-top: 94px;
   text-align: center;
 }
-
 .client-list {
   list-style: none;
   display: flex;
   justify-content: center;
   list-style: none;
-  gap: 10px;
+  gap: 30px;
   margin-bottom: 94px;
 }
 .client-icon-card {
