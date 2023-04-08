@@ -163,9 +163,6 @@ a:focus {
   margin-right: 10px;
 }
 /* FOOTER */
-.logo-adress {
-  display: flex;
-}
 .address > ul {
   font-family: inherit;
   font-weight: inherit;
@@ -192,7 +189,7 @@ footer {
   font-size: 14px;
   list-style: none;
   color: var(--font-color-footer);
-  /* padding-bottom: 60px; */
+  padding-bottom: 60px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -202,6 +199,7 @@ footer {
 .kontakt-down li:first-child a {
   margin-bottom: 9px;
 }
+
 .kontakt-footer a {
   font-size: 14px;
   color: var(--font-color-footer);
@@ -210,7 +208,6 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
 /* INDEX */
 
 .container-main-side {
