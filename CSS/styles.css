@@ -120,6 +120,7 @@ a:visited {
   font-size: 14px;
   font-weight: 500;
   display: flex;
+  align-items: center;
   margin-left: auto;
   list-style: none;
   line-height: 1.17;
@@ -162,6 +163,12 @@ a:focus {
   vertical-align: middle;
   margin-right: 10px;
 }
+
+.phone-header-icon,
+.email-header-icon {
+  padding-right: 10px;
+}
+
 /* FOOTER */
 footer {
   background-color: var(--background-sides-element-color);
