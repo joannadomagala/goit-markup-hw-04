@@ -220,15 +220,18 @@ footer {
   letter-spacing: 0.03em;
 }
 .social-footer-container {
+  fill: var(--font-color-special);
   flex: 1;
   padding-top: 72px;
   margin-inline-start: 70px;
+  padding-bottom: 100px;
 }
 .social-title-footer {
   font-family: inherit;
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 20px;
+  justify-content: flex-start;
 }
 
 .footer-icons-container {
@@ -240,6 +243,9 @@ footer {
 .footer-icons-container li {
   margin-right: 10px;
   margin-left: 0;
+}
+.footer-icons-container li:last-child {
+  margin-right: 0;
 }
 .icons-footer {
   display: flex;
