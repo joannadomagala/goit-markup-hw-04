@@ -494,6 +494,16 @@ ul.home-list {
   width: 170px;
   height: 92px;
 }
+.client-icon-card-foster-peters {
+  fill: var(--hover-focus-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--hover-focus-color);
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
 .client-icon-card svg {
   fill: rgba(175, 177, 184, 1);
 }
