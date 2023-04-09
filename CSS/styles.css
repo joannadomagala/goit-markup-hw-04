@@ -448,10 +448,12 @@ ul.home-list {
 .icon-crew svg {
   fill: var(--icon-client-color);
 }
-.icon-crew:hover svg {
+.icon-crew:hover svg,
+.icon-crew:focus svg {
   fill: var(--font-color-special);
 }
-.icon-crew:hover {
+.icon-crew:hover,
+.icon-crew:focus {
   background-color: var(--hover-focus-color);
   display: flex;
   align-items: center;
@@ -494,7 +496,11 @@ ul.home-list {
   width: 170px;
   height: 92px;
 }
-.client-icon-card-foster-peters {
+.client-icon-card svg {
+  fill: rgba(175, 177, 184, 1);
+}
+.client-icon-card:hover,
+.client-icon-card:focus {
   fill: var(--hover-focus-color);
   display: flex;
   justify-content: center;
@@ -503,11 +509,12 @@ ul.home-list {
   border-radius: 4px;
   width: 170px;
   height: 92px;
+  cursor: pointer;
 }
-.client-icon-card svg {
-  fill: rgba(175, 177, 184, 1);
+.client-icon-card:hover svg,
+.client-icon-card:focus svg {
+  fill: var(--hover-focus-color);
 }
-
 /* PORTFOLIO */
 .filter-container {
   display: flex;
