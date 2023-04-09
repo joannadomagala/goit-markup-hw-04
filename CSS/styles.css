@@ -105,15 +105,11 @@ a:visited {
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
-.logo-nav {
-  display: flex;
-}
+.logo-nav,
 .navigation {
   display: flex;
 }
-.navigation li {
-  margin-right: 46px;
-}
+.navigation li,
 .navigation li:not(:last-child) {
   margin-right: 46px;
 }
@@ -164,12 +160,10 @@ a:focus {
   vertical-align: middle;
   margin-right: 10px;
 }
-
 .phone-header-icon,
 .email-header-icon {
   padding-right: 10px;
 }
-
 /* FOOTER */
 footer {
   background-color: var(--background-sides-element-color);
@@ -187,8 +181,7 @@ footer {
 }
 .logo-footer {
   font-size: 26px;
-  padding-top: 60px;
-  padding-bottom: 0;
+  padding: 60px 0 0;
   margin-bottom: 20px;
 }
 .logo-and-adress {
@@ -242,7 +235,6 @@ footer {
   margin-bottom: 20px;
   justify-content: flex-start;
 }
-
 .footer-icons-container {
   display: flex;
   list-style: none;
@@ -336,8 +328,7 @@ h1 span {
   justify-content: center;
   align-items: center;
   background-color: var(--background-color-icons);
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px 0;
   width: 270px;
   margin-top: 94px;
 }
@@ -455,7 +446,6 @@ ul.home-list {
   justify-content: center;
   border-radius: 50%;
 }
-
 .icon-circle-crew {
   display: flex;
   background-color: transparent;
@@ -594,8 +584,7 @@ button.button-filter:focus {
   font-family: inherit;
   color: var(--font-color-describe);
   margin-top: 4px;
-  padding-left: 24px;
-  padding-bottom: 20px;
+  padding: 0 0 20px 24px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
