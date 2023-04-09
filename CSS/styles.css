@@ -261,6 +261,7 @@ footer {
   border-radius: 50%;
   background-color: var(--background-sides-element-color);
   align-items: flex-start;
+  cursor: pointer;
 }
 .icon-circle {
   display: flex;
@@ -271,7 +272,7 @@ footer {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.icon-circle-tweeter {
+/* .icon-circle-tweeter {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -279,7 +280,7 @@ footer {
   height: 44px;
   border-radius: 50%;
   background-color: var(--hover-focus-color);
-}
+} */
 .icon-circle:hover {
   background-color: var(--hover-focus-color);
 }
@@ -351,7 +352,7 @@ h1 span {
   margin-top: 94px;
 }
 .home-list-container {
-  margin-top: 94px;
+  margin-top: 30px;
 }
 ul.home-list {
   list-style: none;
@@ -447,6 +448,7 @@ ul.home-list {
 }
 .icon-crew svg {
   fill: var(--icon-client-color);
+  cursor: pointer;
 }
 .icon-crew:hover svg,
 .icon-crew:focus svg {
