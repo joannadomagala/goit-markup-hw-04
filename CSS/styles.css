@@ -15,6 +15,7 @@
   --background-color-crew-card: rgba(255, 255, 255, 1);
   --background-color-brand-card: rgba(255, 255, 255, 1);
   --background-color-icons: rgba(245, 244, 250, 1);
+  --background-color-cirkle-footer: rgba(255, 255, 255, 0.1);
   --border-color-brand-card: rgba(238, 238, 238, 1);
   --box-shadow-crew: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -254,12 +255,10 @@ footer {
 .footer-icons-container li:last-child {
   margin-right: 0;
 }
-.icons-footer {
+.icons-footer a {
+  fill: var(--font-color-special);
   display: flex;
   justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: var(--background-sides-element-color);
   align-items: flex-start;
   cursor: pointer;
 }
@@ -270,17 +269,8 @@ footer {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--background-color-cirkle-footer);
 }
-/* .icon-circle-tweeter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: var(--hover-focus-color);
-} */
 .icon-circle:hover {
   background-color: var(--hover-focus-color);
 }
@@ -419,6 +409,9 @@ ul.home-list {
 }
 .crew-card img {
   width: 100%;
+}
+.crew-card a {
+  line-height: 0;
 }
 .crew-name {
   font-size: 16px;
@@ -570,6 +563,7 @@ button.button-filter:focus {
 .brand-card {
   background-color: var(--background-color-brand-card);
   border: 1px solid var(--border-color-brand-card);
+  cursor: pointer;
 }
 .brand-card:hover,
 .brand-card:focus {
