@@ -325,6 +325,7 @@ h1 span {
 button.button-main-side:hover {
   background-color: var(--hover-focus-color);
   color: var(--font-color-special);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .task-icons {
   display: flex;
