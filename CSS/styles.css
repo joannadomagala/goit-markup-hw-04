@@ -453,6 +453,7 @@ ul.home-list {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  cursor: pointer;
 }
 .clients-title {
   font-size: 36px;
