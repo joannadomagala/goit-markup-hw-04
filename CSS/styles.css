@@ -254,7 +254,8 @@ footer {
   align-items: flex-start;
   cursor: pointer;
 }
-.icon-circle {
+.icon-circle,
+.icon-circle a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -262,6 +263,7 @@ footer {
   height: 44px;
   border-radius: 50%;
   background-color: var(--background-color-cirkle-footer);
+  cursor: pointer;
 }
 .icon-circle:hover {
   background-color: var(--hover-focus-color);
@@ -445,7 +447,8 @@ ul.home-list {
   justify-content: center;
   border-radius: 50%;
 }
-.icon-circle-crew {
+.icon-circle-crew,
+.icon-circle-crew a {
   display: flex;
   background-color: transparent;
   align-items: center;
