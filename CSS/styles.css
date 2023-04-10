@@ -205,6 +205,10 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.kontakt-footer:hover a,
+.kontakt-footer:focus a {
+  color: var(--hover-focus-color);
+}
 .kontakt-down {
   font-size: 14px;
   list-style: none;
@@ -317,6 +321,10 @@ h1 span {
   margin-top: 30px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+}
+button.button-main-side:hover {
+  background-color: var(--hover-focus-color);
+  color: var(--font-color-special);
 }
 .task-icons {
   display: flex;
@@ -534,11 +542,7 @@ ul.home-list {
   line-height: 1.625;
   letter-spacing: 0.03em;
 }
-button.button-main-side:hover,
-button.button-main-side:focus {
-  background-color: var(--hover-focus-color);
-  color: var(--font-color-special);
-}
+
 button.button-filter:hover,
 button.button-filter:focus {
   background-color: var(--hover-focus-color);
