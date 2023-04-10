@@ -426,7 +426,7 @@ ul.home-list {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
 }
