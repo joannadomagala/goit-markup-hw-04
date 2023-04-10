@@ -475,7 +475,8 @@ ul.home-list {
   gap: 30px;
   margin-bottom: 94px;
 }
-.client-icon-card {
+.client-icon-card,
+.client-icon-card a {
   display: flex;
   justify-content: center;
   align-items: center;
