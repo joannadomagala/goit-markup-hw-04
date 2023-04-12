@@ -237,6 +237,7 @@ footer {
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 20px;
+  text-transform: uppercase;
   justify-content: flex-start;
 }
 .footer-icons-container {
