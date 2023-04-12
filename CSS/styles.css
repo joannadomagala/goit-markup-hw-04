@@ -301,6 +301,7 @@ h1 {
   font-size: 44px;
   font-family: inherit;
   color: var(--font-color-special);
+  text-transform: uppercase;
   font-weight: 900;
   padding-top: 105px;
   line-height: 1.36;
